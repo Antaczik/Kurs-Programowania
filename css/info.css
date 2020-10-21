@@ -1,9 +1,0 @@
-#info {
-    background-color: white;
-    display: flex;
-    
-}
-.infoItem {
-    flex-grow: 1;
-    text-align: center;
-}
