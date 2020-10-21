@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        margin-top: 0;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 20px;
+}
+ 
+.cardText {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardTextContainer {
+    margin-top: 20px;
+    text-align: center;
+}
